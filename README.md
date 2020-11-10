@@ -7,6 +7,7 @@ This experimental project is similar to the Linux shell terminal, named myshell,
 ## Background
 
 Shell, commonly known as shell (used to distinguish from the core), refers to the software (command parser) that provides "user interface". At the same time, it is a programming language. As a command language, it interprets and executes commands entered by users interactively or automatically interprets and executes a series of preset commands.
+
 In the basic course of operating system, we understand some system calls commonly used under Linux and UNIX systems through theoretical study and experimental practice. In order to better understand these abstract system call concepts, students in the class form a group for programming practice. In order to improve the programming ability, the team members use the system calls they have learned to design, write and implement a terminal command line execution program similar to shell, so as to master the relevant knowledge.
 
 
@@ -31,19 +32,19 @@ mv, ls, touch, mkdir, rmdir, cp, cd, pwd, grep, history, cat, rm, exit
 
 ### Function Description
 
-mv: move file or modify file name
-ls: display file list
-touch: create a new file
-mkdir: create a new folder (including recursive creation)
-rmdir: delete non empty directory
-cp: copy file
-cd: switch directory
-pwd: displays the absolute path of the current working path
-grep: find character (only for pipeline command)
-history: view history command
-cat: view file content
-rm: delete file
-exit: exit myshell
+- mv: move file or modify file name
+- ls: display file list
+- touch: create a new file
+- mkdir: create a new folder (including recursive creation)
+- rmdir: delete non empty directory
+- cp: copy file
+- cd: switch directory
+- pwd: displays the absolute path of the current working path
+- grep: find character (only for pipeline command)
+- history: view history command
+- cat: view file content
+- rm: delete file
+- exit: exit myshell
 
 ## Development and Operation Environment
 
